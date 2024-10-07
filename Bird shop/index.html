@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+      <div class=" min-h-screen bg-zinc-800 px-[90px] pt-[25px]">
+        <nav class="flex justify-between items-center border border-stone-900 rounded p-[20px] px-[30px] text-white text-normal">
+            <img class=" h-[35px] cursor-pointer" src="https://i0.wp.com/openvisualfx.com/wp-content/uploads/2019/10/pnglot.com-twitter-bird-logo-png-139932.png?fit=2186%2C2187&ssl=1" alt="">
+            <ul class="flex space-x-9">
+              <li><a class="hover:underline" href="#">Home</a></li>
+              <li><a class="hover:underline" href="#">About</a></li>
+              <li><a class="hover:underline" href="#">Services</a></li>
+              </ul>
+              <button class="bg-blue-400 py-2 px-6 rounded-full hover:bg-blue-500">Login</button>
+        </nav>
+        <div class="flex">
+            <div class="mt-[150px]">
+            <h2 class="text-5xl font-bold text-white leading-tight">Bird Shop <br> Delivery in 5 min</h2>
+            <p class="text-md text-white pt-[9px]">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Laborum quod nobis rerum ducimus, exercitationem esse vitae, odio,in culpa optio natus!</p>
+            <div class="flex gap-6 items-center mt-8">
+                <button class="bg-yellow-400 py-3 px-8 rounded-full font-medium hover:bg-yellow-500">Order Now</button>
+                <p class="font-medium text-base">Download App</p>
+            </div>
+            </div>
+            <img class="h-[500px] mt-[40px]" src="image/undraw_reading_time_re_phf7.svg" alt="">
+        </div>
+      </div>
+</body>
+</html>
